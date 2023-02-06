@@ -22,7 +22,7 @@
   programs.kakoune = {
    enable = true;
    config = {
-    colorScheme = "zenburn";
+    colorScheme = "tomorrow-night";
     ui = {
      enableMouse = true;
     };
