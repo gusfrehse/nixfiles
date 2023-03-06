@@ -56,6 +56,7 @@
    customPaneNavigationAndResize = true;
    escapeTime = 0;
    terminal = "xterm-256color";
+   mouse = true;
    extraConfig =
    ''
        set -ga terminal-overrides ',*color*:Tc'
