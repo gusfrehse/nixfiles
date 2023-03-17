@@ -48,6 +48,29 @@
     '';
   };
 
+  programs.vim = {
+   enable = true;
+   defaultEditor = true;
+   plugins = [
+    pkgs.vimPlugins.awesome-vim-colorschemes
+   ];
+   settings = {
+    background = "dark";
+    hidden = true;
+    mouse = "a";
+    smartcase = true;
+    tabstop = 4;
+    shiftwidth = 4;
+    expandtab = true;
+   };
+   extraConfig = 
+    ''
+     set noesckeys
+     set termguicolors
+     colorscheme lucid
+    '';
+  };
+
   programs.tmux = {
    enable = true;
    baseIndex = 1;
