@@ -53,6 +53,8 @@
    defaultEditor = true;
    plugins = [
     pkgs.vimPlugins.awesome-vim-colorschemes
+    pkgs.vimPlugins.ctrlp
+    pkgs.vimPlugins.polyglot
    ];
    settings = {
     background = "dark";
@@ -67,6 +69,7 @@
     ''
      set noesckeys
      set termguicolors
+     set ignorecase
      colorscheme lucid
     '';
   };
