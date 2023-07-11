@@ -70,7 +70,7 @@
      set noesckeys
      set termguicolors
      set ignorecase
-     colorscheme OceanicNext
+     colorscheme stellarized
     '';
   };
 
